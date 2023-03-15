@@ -2,6 +2,7 @@
   margin: 40px 0;
   text-align: center;
   font-weight: bold !important;
+  font-size: 30px;
 }
 
 input[type="text"],
@@ -28,4 +29,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #45a049;
+}
+.content {
+  min-height: calc(100vh - 227px);
 }
